@@ -84,6 +84,8 @@
     <aemanalyser.version>1.4.10</aemanalyser.version>
             
     <componentGroupName>Practice Test Project Two</componentGroupName>
+    
+    <maven.deploy.skip>true</maven.deploy.skip>
         
   </properties>
       
