@@ -25,7 +25,7 @@
     <parent>
         <groupId>com.practice.test2</groupId>
         <artifactId>aem-practicetest2-deployment</artifactId>
-        <version>0.0.6-SNAPSHOT</version>
+        <version>0.0.7-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
