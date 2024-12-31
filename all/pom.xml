@@ -183,18 +183,21 @@
             <artifactId>aem-practicetest2-deployment.ui.apps</artifactId>
             <version>${project.version}</version>
             <type>zip</type>
+            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>com.practice.test2</groupId>
             <artifactId>aem-practicetest2-deployment.ui.content</artifactId>
             <version>${project.version}</version>
             <type>zip</type>
+            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>com.practice.test2</groupId>
             <artifactId>aem-practicetest2-deployment.ui.config</artifactId>
             <version>${project.version}</version>
             <type>zip</type>
+            <scope>provided</scope>
         </dependency>
 
     </dependencies>
