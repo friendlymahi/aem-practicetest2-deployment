@@ -30,7 +30,7 @@ jobs:
         if: github.ref_name == 'develop'
         run: |
           # Deploy the snapshot version to GitHub Packages using the settings from .mvn/settings.xml
-          mvn clean deploy -s.mvn/settings.xml -DperformRelease=true -DskipTests -DaltDeploymentRepository=github-releases::default::${{ env.PUBLISH_REPO }}
+          mvn clean deploy -s.mvn/settings.xml -DskipTests -DaltDeploymentRepository=github-releases::default::${{ env.PUBLISH_REPO }}
 
           # Increment the version for the next snapshot
           current_version=$(mvn help:evaluate -Dexpression=project.version -q -DforceStdout)

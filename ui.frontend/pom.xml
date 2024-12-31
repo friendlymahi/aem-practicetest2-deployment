@@ -35,6 +35,10 @@
     <packaging>pom</packaging>
     <name>Practice Test Project Two - UI Frontend</name>
 
+    <properties>
+        <maven.deploy.skip>true</maven.deploy.skip>
+    </properties>
+
 
     <!-- ====================================================================== -->
     <!-- B U I L D   D E F I N I T I O N                                        -->

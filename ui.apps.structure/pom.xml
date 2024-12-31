@@ -23,6 +23,10 @@
         Any roots in the Code packages of this project should have their parent enumerated in the Filters list below.
     </description>
 
+    <properties>
+        <maven.deploy.skip>true</maven.deploy.skip>
+    </properties>
+
     <build>
         <plugins>
             <plugin>

@@ -85,7 +85,7 @@
             
     <componentGroupName>Practice Test Project Two</componentGroupName>
     
-    <maven.deploy.skip>true</maven.deploy.skip>
+    <maven.deploy.skip>false</maven.deploy.skip>
         
   </properties>
       
